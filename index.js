@@ -123,7 +123,14 @@ function constructRecipe()
 	document.getElementById("complexStyle").style.display = g_SimpleStyle ? "none" : "inline";
 	document.getElementById("steps").style.display = g_SimpleStyle ? "inline" : "none";
 	document.getElementById("ingredients").style.display = g_SimpleStyle ? "inline" : "none";
-	document.getElementById("persons").innerHTML = "Personen: " + g_SelectedRecipe.persons;
+	let personsString = "Personen: ";
+	if (g_SelectedRecipe.persons == undefined)
+		personsString += "undefined";
+	else if (typeof g_SelectedRecipe.persons == "object")
+		personsString += g_SelectedRecipe.persons[0] + "–" + g_SelectedRecipe.persons[1];
+	else
+		personsString += g_SelectedRecipe.persons;
+	document.getElementById("persons").innerHTML = personsString;
 }
 
 function toggleFormat()
