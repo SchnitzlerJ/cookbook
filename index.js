@@ -59,6 +59,38 @@ var g_Recipes = [
 		],
 		"inspiration": null,
 	},
+	{
+		"name": "Chili sin carne (Sojahack)",
+		"persons": 3,
+		"ingredients": [
+			{ "amount": "800 g", "name": "Dosentomaten" },
+			{ "amount": "800 g", "name": "Kidneybohnen" },
+			{ "amount": "170 ml", "name": "Sojagranulat" },
+			{ "amount": "340 ml", "name": "Wasser (kochend)" },
+			{ "amount": "", "name": "Gemüsebrühe" },
+			{ "amount": "1 Zehe", "name": "Knoblauch" },
+			{ "amount": "1", "name": "Zwiebel" },
+			{ "amount": "3", "name": "Paprika" },
+			{ "amount": "", "name": "Chilis" },
+			{ "amount": "", "name": "Kreuzkümmel"},
+			{ "amount": "", "name": "Schokolade (74%)"},
+			{ "amount": "", "name": "Kakaopulver"},
+			{ "amount": "", "name": "Paprikapulver"},
+			{ "amount": "", "name": "Zimt"},
+			{ "amount": "", "name": "Oregano"},
+			{ "amount": "", "name": "Salz"},
+			{ "amount": "", "name": "Pfeffer"},
+		],
+		"steps": [
+			"$2 in $3 mit etwas $4 einweichen.",
+			"$7 und $6 würfeln.",
+			"$2 abtropfen und im Topf scharf anbraten, mit Pfeffer und Salz würzen.",
+			"$7 und $6 hinzugeben.",
+			"$0, $1, $8 hinzugeben und köcheln lassen.",
+			"$5 pressen und dazugeben, köcheln lassen und mit $9, $10, $11, $12, $13, $14, $15 und $16 abschmecken."
+		],
+		"inspiration": null,
+	},
 
 
 ];
