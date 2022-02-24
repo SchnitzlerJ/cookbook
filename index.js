@@ -51,7 +51,7 @@ var g_Recipes = [
 			{ "amount": "3", "name": "Lorbeerblätter"},
 		],
 		"steps": [
-			"$4 und $5 klein Würfeln und mit Butter andünsten.",
+			"$4 und $5 klein würfeln und mit Butter andünsten.",
 			"$2, $3 und $7 hinzugeben und Deckel schließen. Kochen.",
 			"$0, $6 und $1 zu einem Teig schlagen.",
 			"Spätzle machen.",
