@@ -182,6 +182,8 @@ function constructRecipe()
 		personsString += "undefined";
 	else if (typeof g_SelectedRecipe.persons == "object")
 		personsString += g_SelectedRecipe.persons[0] + "–" + g_SelectedRecipe.persons[1];
+	else if (typeof g_SelectedRecipe.persons == "string")
+		personsString = g_SelectedRecipe.persons;
 	else
 		personsString += g_SelectedRecipe.persons;
 	document.getElementById("persons").innerHTML = personsString;
