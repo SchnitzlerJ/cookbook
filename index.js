@@ -154,6 +154,7 @@ function constructRecipe()
 
 	document.getElementById("complexStyle").style.display = g_SimpleStyle ? "none" : "inline";
 	document.getElementById("steps").style.display = g_SimpleStyle ? "inline" : "none";
+	document.getElementById("steps").style.listStyle = g_SimpleStyle ? "inside decimal" : "none";
 	document.getElementById("ingredients").style.display = g_SimpleStyle ? "inline" : "none";
 	let personsString = "Personen: ";
 	if (g_SelectedRecipe.persons == undefined)
