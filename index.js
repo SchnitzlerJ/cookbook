@@ -91,6 +91,27 @@ var g_Recipes = [
 		],
 		"inspiration": null,
 	},
+	{
+		"name": "Kartoffelsalat",
+		"persons": undefined,
+		"ingredients": [
+			{ "amount": "800 g", "name": "Salatkartoffeln" },
+			{ "amount": "250 ml", "name": "Gemüsebrühe" },
+			{ "amount": "5 EL", "name": "Essig" },
+			{ "amount": "1.5 TL", "name": "Senf" },
+			{ "amount": "2", "name": "Zwiebeln"},
+			{ "amount": "3", "name": "Öl"},
+		],
+		"steps": [
+			"$0 waschen, gar dämpfen und mit kaltem Wasser abschrecken.",
+			"$4 fein würfeln und mit $1, $2 und $3 aufkochen.",
+			"Warme Kartoffeln schälen und in dünne Scheiben schneiden,",
+			"Brühe über die Kartoffeln geben, vorsichtig unterheben und ziehen lassen.",
+			"$5 unterheben.",
+			"Nach 30 Minuten mit Essig, Öl und Pfeffer abschmecken.",
+		],
+		"inspiration": null,
+	},
 
 
 ];
