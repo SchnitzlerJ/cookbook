@@ -110,7 +110,7 @@ var g_Recipes = [
 			"$5 unterheben.",
 			"Nach 30 Minuten mit Essig, Öl und Pfeffer abschmecken.",
 		],
-		"inspiration": null,
+		"inspiration": "OptimusShepard",
 	},
 	{
 		"name": "Brownies",
