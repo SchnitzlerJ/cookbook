@@ -112,6 +112,31 @@ var g_Recipes = [
 		],
 		"inspiration": null,
 	},
+	{
+		"name": "Brownies",
+		"persons": "Blech 24 cm × 24 cm",
+		"ingredients": [
+			{ "amount": "130 g", "name": "Butter" },
+			{ "amount": "270 g", "name": "Zartbitterschokolade" },
+			{ "amount": "50 g", "name": "Muscovadozucker" },
+			{ "amount": "90 g", "name": "Zucker" },
+			{ "amount": "60 g", "name": "Mehl" },
+			{ "amount": "40 g", "name": "Kakao" },
+			{ "amount": "3", "name": "Eier" },
+			{ "amount": "0.75 TL", "name": "Backpulver" },
+		],
+		"steps": [
+			"$1 mit $0 schmelzen.",
+			"$2 und $3 darunterschlagen und abkühlen lassen.",
+			"Backofen auf 175 °C Ober-/Unterhitze vorwärmen und Backform einfetten.",
+			"In weiterer Schüssel $4 mit $5 und $7 mischen.",
+			"$6 in Schokolade-Butter-Zucker-Mischung rühren und kurz schaumig schlagen.",
+			"Mehl-Kakao-Mischung unterheben, bis gerade so ein Teig entsteht. Nicht länger!",
+			"In Backform verteilen und 15–22 Minuten im Ofen backen. Die Brownies sind fertig, wenn beim reinstechen nur wenig kleben bleibt und es sich beim Wackeln am Blech relativ fest verhält.",
+			"Mindestens 6 Stunden kühl stellen.",
+		],
+		"inspiration": null,
+	},
 
 
 ];
