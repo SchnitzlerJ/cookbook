@@ -20,17 +20,21 @@ body{
 	</head>
 	<body>
 
-		<h2 id="heading"></h2>
-		<p id="persons"></p>
-		<p><table class=zutaten id="ingredients"></table></p>
-		<p><ol id="steps"></ol></p>
-		<p><table class=zutaten id="complexStyle">
-		</table></p>
+		<div id="recipePage" >
+			<h2 id="heading"></h2>
+			<p id="persons"></p>
+			<p><table class=zutaten id="ingredients"></table></p>
+			<p><ol id="steps"></ol></p>
+			<p><table class=zutaten id="complexStyle">
+			</table></p>
 
+			<button type="button" id="toggleFormatButton">Toggle format</button>
+		</div>
+		<div id="startPage" >
+			<p><ol id="recipeList"></ol></p>
+		</div>
 		<script src="index.js">
 		</script> 
-
-		<button type="button" id="toggleFormatButton">Toggle format</button>
 	</body>
 </html>
 

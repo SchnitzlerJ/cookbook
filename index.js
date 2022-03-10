@@ -142,9 +142,11 @@ var g_Recipes = [
 ];
 
 var g_SimpleStyle = true;
-let g_SelectedRecipe = g_Recipes[(new URL(window.location.href)).searchParams.get("recipe")];
+let g_SelectedRecipeId = (new URL(window.location.href)).searchParams.get("recipe");
+// TODO: Better catch all invalid values
+if (g_SelectedRecipeId == "")
+	g_SelectedRecipeId = null;
 
-document.getElementById("heading").innerHTML = g_SelectedRecipe.name;
 
 function constructRow(amount, ingred, step)
 {
@@ -155,6 +157,8 @@ function constructRow(amount, ingred, step)
 
 function constructRecipe()
 {
+	let g_SelectedRecipe = g_SelectedRecipeId != null && g_Recipes[g_SelectedRecipeId];
+
 	let compSt = "";
 	let simpSt = "";
 	let includedIngredients = [];
@@ -191,6 +195,8 @@ function constructRecipe()
 		compSt += constructRow(amountStr, ingredStr, stepStr);
 		simpSt += "<li>" + step.replace(/\$[0-9]+/gi, (m) => g_SelectedRecipe.ingredients[m.substring(1)].name) + "</li>";
 	}
+	document.getElementById("heading").innerHTML = g_SelectedRecipe.name;
+
 	document.getElementById("ingredients").innerHTML = includedIngredients.map(i =>
 		"<tr><td>" + g_SelectedRecipe.ingredients[i].amount + "</td><td>" + g_SelectedRecipe.ingredients[i].name + "</td></tr>"
 	).join("");
@@ -214,14 +220,36 @@ function constructRecipe()
 	document.getElementById("persons").innerHTML = personsString;
 }
 
+function populateRecipeList()
+{
+	let list = g_Recipes.map((r,i) => {
+		let url = new URL(window.location.href);
+		url.searchParams.set("recipe", i);
+		return '<li><a href="' + url.href + '">' + r.name + "</a></li>"
+	}).join("");
+	document.getElementById("recipeList").innerHTML = list;
+}
+
 function toggleFormat()
 {
 	g_SimpleStyle = !g_SimpleStyle;
 	constructRecipe();
 }
 
+function hideId(id, hide)
+{
+	document.getElementById(id).style.visibility = hide ? "hidden" : "visible";
+}
+
 window.onload = function()
 {
-	constructRecipe();
-	document.getElementById("toggleFormatButton").addEventListener ("click", toggleFormat, false);
+	hideId("recipePage", g_SelectedRecipeId == null);
+	hideId("startPage", g_SelectedRecipeId != null);
+	if (g_SelectedRecipeId != null)
+	{
+		constructRecipe();
+		document.getElementById("toggleFormatButton").addEventListener ("click", toggleFormat, false);
+	}
+	else
+		populateRecipeList();
 }
