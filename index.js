@@ -157,13 +157,13 @@ function constructRow(amount, ingred, step)
 
 function constructRecipe()
 {
-	let g_SelectedRecipe = g_SelectedRecipeId != null && g_Recipes[g_SelectedRecipeId];
+	let selectedRecipe = g_SelectedRecipeId != null && g_Recipes[g_SelectedRecipeId];
 
 	let compSt = "";
 	let simpSt = "";
 	let includedIngredients = [];
 	let s = 0;
-	for (let step of g_SelectedRecipe.steps)
+	for (let step of selectedRecipe.steps)
 	{
 		compSt += constructRow("", "", "<b>" + ++s + ". ");
 		let arr = step.split(/(\$[0-9]+)/gi);
@@ -183,22 +183,22 @@ function constructRecipe()
 					compSt += constructRow(amountStr, ingredStr, stepStr);
 					includedIngredients.push(ing);
 					stepStr = "";
-					amountStr = g_SelectedRecipe.ingredients[ing].amount;
-					ingredStr = g_SelectedRecipe.ingredients[ing].name;
+					amountStr = selectedRecipe.ingredients[ing].amount;
+					ingredStr = selectedRecipe.ingredients[ing].name;
 				}
 				else
-					stepStr += g_SelectedRecipe.ingredients[ing].name;
+					stepStr += selectedRecipe.ingredients[ing].name;
 			}
 			else
 				stepStr += part;
 		}
 		compSt += constructRow(amountStr, ingredStr, stepStr);
-		simpSt += "<li>" + step.replace(/\$[0-9]+/gi, (m) => g_SelectedRecipe.ingredients[m.substring(1)].name) + "</li>";
+		simpSt += "<li>" + step.replace(/\$[0-9]+/gi, (m) => selectedRecipe.ingredients[m.substring(1)].name) + "</li>";
 	}
-	document.getElementById("heading").innerHTML = g_SelectedRecipe.name;
+	document.getElementById("heading").innerHTML = selectedRecipe.name;
 
 	document.getElementById("ingredients").innerHTML = includedIngredients.map(i =>
-		"<tr><td>" + g_SelectedRecipe.ingredients[i].amount + "</td><td>" + g_SelectedRecipe.ingredients[i].name + "</td></tr>"
+		"<tr><td>" + selectedRecipe.ingredients[i].amount + "</td><td>" + selectedRecipe.ingredients[i].name + "</td></tr>"
 	).join("");
 	document.getElementById("steps").innerHTML = simpSt;
 
@@ -209,14 +209,14 @@ function constructRecipe()
 	document.getElementById("steps").style.listStyle = g_SimpleStyle ? "inside decimal" : "none";
 	document.getElementById("ingredients").style.display = g_SimpleStyle ? "inline" : "none";
 	let personsString = "Personen: ";
-	if (g_SelectedRecipe.persons == undefined)
+	if (selectedRecipe.persons == undefined)
 		personsString += "undefined";
-	else if (typeof g_SelectedRecipe.persons == "object")
-		personsString += g_SelectedRecipe.persons[0] + "–" + g_SelectedRecipe.persons[1];
-	else if (typeof g_SelectedRecipe.persons == "string")
-		personsString = g_SelectedRecipe.persons;
+	else if (typeof selectedRecipe.persons == "object")
+		personsString += selectedRecipe.persons[0] + "–" + selectedRecipe.persons[1];
+	else if (typeof selectedRecipe.persons == "string")
+		personsString = selectedRecipe.persons;
 	else
-		personsString += g_SelectedRecipe.persons;
+		personsString += selectedRecipe.persons;
 	document.getElementById("persons").innerHTML = personsString;
 }
 
