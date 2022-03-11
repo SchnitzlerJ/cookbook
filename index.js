@@ -137,6 +137,31 @@ var g_Recipes = [
 		],
 		"inspiration": null,
 	},
+	{
+		"name": "Bisquitrolle",
+		"persons": "1 Blech",
+		"ingredients": [
+			{ "amount": "150 g", "name": "Mehl" },
+			{ "amount": "150 g", "name": "Zucker" },
+			{ "amount": "3", "name": "Eier" },
+			{ "amount": "3 EL", "name": "warmes Wasser" },
+			{ "amount": "3 TL", "name": "Backpulver" },
+			{ "amount": "", "name": "Sahne" },
+			{ "amount": "", "name": "Beeren" },
+			{ "amount": "", "name": "Puderzucker" },
+		],
+		"steps": [
+			"$2 trennen. Eiklar steif schlagen, danach die Hälfte des $1s einrieseln lassen.",
+			"Eigelb in anderer Schüssel cremig schlagen.",
+			"$3 hinzufügen, danach Rest des $1s unterschlagen.",
+			"Eischnee darübergeben. $0 mit $4 mischen und auch in die Schüssel geben. Danach vorsichtig durchmischen.",
+			"Masse in ein mit gefettetem Backpapier ausgelegtem Blech geben, glatt streichen und 12–13 Minuten bei 190–210 °C ohne Umluft backen bis der Teig anfängt leicht hellbraun zu werden.",
+			"Sauberes Tuch auslegen und mit Zucker bestreuen.",
+			"Sobald der Bisquit aus dem Ofen ist, auf das Tuch stürzen, Backpapier abziehen und den Bisquit zusammen mit dem Tuch aufrollen.",
+			"Sobald die Rolle abgekühlt ist, entrollen, mit geschlagener $5 und $6 füllen, zusammenrollen und mit $7 bestreuen.",
+		],
+		"inspiration": "Kochen und Backen nach Grundrezepten (Luise Haarer)",
+	},
 
 
 ];
