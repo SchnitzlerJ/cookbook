@@ -239,7 +239,7 @@ function constructRecipe()
 	else if (typeof selectedRecipe.persons == "object")
 		personsString += selectedRecipe.persons[0] + "–" + selectedRecipe.persons[1];
 	else if (typeof selectedRecipe.persons == "string")
-		personsString = selectedRecipe.persons;
+		personsString = "Für " + selectedRecipe.persons;
 	else
 		personsString += selectedRecipe.persons;
 	document.getElementById("persons").innerHTML = personsString;
