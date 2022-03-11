@@ -180,6 +180,11 @@ function constructRow(amount, ingred, step)
 	return "<tr><td>" + amount + "</td><td>" + ingred + "</td><td>" + step + "</td></tr>";
 }
 
+function capitalize(s)
+{
+	return s[0].toUpperCase() + s.substring(1);
+}
+
 function constructRecipe()
 {
 	let selectedRecipe = g_SelectedRecipeId != null && g_Recipes[g_SelectedRecipeId];
@@ -191,34 +196,42 @@ function constructRecipe()
 	for (let step of selectedRecipe.steps)
 	{
 		compSt += constructRow("", "", "<b>" + ++s + ". ");
-		let arr = step.split(/(\$[0-9]+)/gi);
+		simpSt += "<li>";
+		let arr = step.split(/(\$[0-9]+)/gi).filter(s => s != "");
 		let i = 0;
 
 		let amountStr = "";
 		let ingredStr = "";
 		let stepStr = "";
 
+		let newSentence = true;
 		for (let part of arr)
 		{
 			if (part[0] == "$")
 			{
 				let ing = part.substring(1);
+				let name = newSentence ? capitalize(selectedRecipe.ingredients[ing].name) : selectedRecipe.ingredients[ing].name;
 				if (!includedIngredients.some(a => a == ing))
 				{
 					compSt += constructRow(amountStr, ingredStr, stepStr);
 					includedIngredients.push(ing);
 					stepStr = "";
 					amountStr = selectedRecipe.ingredients[ing].amount;
-					ingredStr = selectedRecipe.ingredients[ing].name;
+					ingredStr = name;
 				}
 				else
-					stepStr += selectedRecipe.ingredients[ing].name;
+					stepStr += name;
+				simpSt += name;
 			}
 			else
+			{
 				stepStr += part;
+				simpSt += part;
+			}
+			newSentence = part.slice(-2) == ". " || part.slice(-1) == ".";
 		}
 		compSt += constructRow(amountStr, ingredStr, stepStr);
-		simpSt += "<li>" + step.replace(/\$[0-9]+/gi, (m) => selectedRecipe.ingredients[m.substring(1)].name) + "</li>";
+		simpSt += "</li>";
 	}
 	document.getElementById("heading").innerHTML = selectedRecipe.name;
 
