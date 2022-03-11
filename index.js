@@ -260,10 +260,10 @@ function constructRecipe()
 
 function populateRecipeList()
 {
-	let list = g_Recipes.map((r,i) => {
+	let list = g_Recipes.map((r,i) => [r,i]).sort((a,b) => a[0].name > b[0].name).map(p => {
 		let url = new URL(window.location.href);
-		url.searchParams.set("recipe", i);
-		return '<li><a href="' + url.href + '">' + r.name + "</a></li>"
+		url.searchParams.set("recipe", p[1]);
+		return '<li><a href="' + url.href + '">' + p[0].name + "</a></li>"
 	}).join("");
 	document.getElementById("recipeList").innerHTML = list;
 }
