@@ -269,6 +269,7 @@ function constructRecipe()
 		simpSt += "</li>";
 	}
 	document.getElementById("heading").innerHTML = selectedRecipe.name;
+	document.title = selectedRecipe.name;
 
 	document.getElementById("ingredients").innerHTML = includedIngredients.map(i =>
 		"<tr><td>" + selectedRecipe.ingredients[i].amount + "</td><td>" + selectedRecipe.ingredients[i].name + "</td></tr>"
@@ -295,6 +296,7 @@ function constructRecipe()
 
 function populateRecipeList()
 {
+	document.title = "Rezepte";
 	let list = g_Recipes.map((r,i) => [r,i]).sort((a,b) => a[0].name > b[0].name).map(p => {
 		let url = new URL(window.location.href);
 		url.searchParams.set("recipe", p[1]);
