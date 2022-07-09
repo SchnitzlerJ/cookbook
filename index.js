@@ -331,7 +331,7 @@ function populateRecipeList()
 	let list = g_Recipes.map((r,i) => [r,i]).sort((a,b) => a[0].name > b[0].name).map(p => {
 		let url = new URL(window.location.href);
 		url.searchParams.set("recipe", p[1]);
-		return '<li><a href="' + url.href + '">' + p[0].name + "</a></li>"
+		return '<li><a class="recipe" href="' + url.href + '">' + p[0].name + "</a></li>"
 	}).join("");
 	document.getElementById("recipeList").innerHTML = list;
 }
