@@ -199,8 +199,34 @@ var g_Recipes = [
 		],
 		"inspiration": "https://www.seriouseats.com/shakshuka-north-african-shirred-eggs-tomato-pepper-recipe",
 	},
-
-
+	{
+		"name": "Bratreis mit Ei",
+		"persons": 1,
+		"ingredients": [
+			{ "amount": "", "name": "gekochter Reis" },
+			{ "amount": "2", "name": "Eier" },
+			{ "amount": "2", "name": "Knoblauchzehen" },
+			{ "amount": "1", "name": "Zwiebeln" },
+			{ "amount": "1 Bund", "name": "Frühlingszwiebeln" },
+			{ "amount": "", "name": "Chilipulver" },
+			{ "amount": "", "name": "Sojasoße" },
+			{ "amount": "", "name": "Sesamöl" },
+			{ "amount": "180 g", "name": "gefrorene Erbsen" },
+			{ "amount": "", "name": "Salz" },
+		],
+		"steps": [
+			"$2 und $3 würfeln.",
+			"Öl in Pfanne erhitzen.",
+			"$1 mit etwas $6 grob verquirlen.",
+			"Gewürfelte $2 und $3 unter stetigem Rühren scharf anbraten.",
+			"$4 schneiden und danach ebenso in die Pfanne geben.",
+			"Wenn die Zwiebeln gar sind, $8 hinzugeben.",
+			"Sobald die Erbsen gar sind, $1 unter Rühren dazugeben.",
+			"Wenn die $1 zu stocken beginnen, $0 hinzugeben und weiter braten.",
+			"Mit $6, $5, $9 und zuletzt etwas $7 abschmecken.",
+		],
+		"inspiration": null,
+	},
 ];
 
 var g_SimpleStyle = true;
