@@ -268,6 +268,9 @@ function constructRecipe()
 		compSt += constructRow(amountStr, ingredStr, stepStr);
 		simpSt += "</li>";
 	}
+	if (selectedRecipe.ingredients.length !=includedIngredients.length) {
+		console.warn("Seems like " + (selectedRecipe.ingredients.length - includedIngredients.length) + " ingredients have been forgotten.");
+	}
 	document.getElementById("heading").innerHTML = selectedRecipe.name;
 	document.title = selectedRecipe.name;
 
