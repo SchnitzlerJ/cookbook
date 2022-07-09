@@ -21,19 +21,21 @@ var g_Recipes = [
 	},
 	{
 		"name": "Kartoffelcremesuppe",
-		"persons": undefined,
+		"persons": [3,4],
 		"ingredients": [
-			{ "amount": "400 g", "name": "Kartoffeln" },
+			{ "amount": "800 g", "name": "Kartoffeln" },
 			{ "amount": "2 EL", "name": "Olivenöl" },
 			{ "amount": "2 Zehen", "name": "Knoblauch" },
-			{ "amount": "800 ml", "name": "Gemüsebrühe" },
+			{ "amount": "1000 ml", "name": "leichte Gemüsebrühe" },
 			{ "amount": "150 g", "name": "Crème fraîche" },
+			{ "amount": "", "name": "Zitronensaft" },
 		],
 		"steps": [
 			"$0 schälen und würfeln.",
 			"$2 fein hacken und zusammen mit $0 in $1 andünsten.",
-			"$3 dazugießen und aufkochen. 10 Minuten kochenlassen.",
+			"$3 dazugießen und aufkochen. Ca. 10 Minuten köcheln bis die Kartoffeln gar sind.",
 			"Die gegarte Suppe fein pürieren, $4 unterschlagen.",
+			"Mit $5 und Salz und Pfeffer abschmecken."
 		],
 		"inspiration": "TODO",
 	},
