@@ -227,6 +227,29 @@ var g_Recipes = [
 		],
 		"inspiration": null,
 	},
+	{
+		"name": "Heidelbeerkuchen",
+		"persons": "1 kleines Blech",
+		"ingredients": [
+			{ "amount": "180 g", "name": "Butter" },
+			{ "amount": "200 g", "name": "Zucker" },
+			{ "amount": "250 g", "name": "Mehl" },
+			{ "amount": "1 Pck", "name": "Backpulver" },
+			{ "amount": "4", "name": "Eier" },
+			{ "amount": "250 g", "name": "Heidelbeeren" },
+			{ "amount": "125 g", "name": "Joghurt" },
+			{ "amount": "100 g", "name": "Sauerrahm" },
+		],
+		"steps": [
+			"Warme $0 mit $1 verrühren.",
+			"$4 unterschlagen.",
+			"$2 und $3 mischen und zur Masse geben.",
+			"$6 und $7 dazugeben und gut verrühren.",
+			"$5 in etwas Mehl wenden und in den Teig geben.",
+			"In vorgeheiztem Ofen bei 170 °C für 40–60 Minuten backen.",
+		],
+		"inspiration": "https://www.chefkoch.de/rezepte/1444801249404467/Blitz-Heidelbeerkuchen.html",
+	},
 ];
 
 var g_SimpleStyle = true;
