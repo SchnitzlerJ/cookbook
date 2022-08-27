@@ -67,7 +67,7 @@ var g_Recipes = [
 		"ingredients": [
 			{ "amount": "800 g", "name": "Dosentomaten" },
 			{ "amount": "800 g", "name": "Kidneybohnen" },
-			{ "amount": "170 ml", "name": "Sojagranulat" },
+			{ "amount": "70 g", "name": "Sojagranulat" },
 			{ "amount": "340 ml", "name": "Wasser (kochend)" },
 			{ "amount": "", "name": "Gemüsebrühe" },
 			{ "amount": "1 Zehe", "name": "Knoblauch" },
@@ -86,8 +86,9 @@ var g_Recipes = [
 		"steps": [
 			"$2 in $3 mit etwas $4 einweichen.",
 			"$7 und $6 würfeln.",
-			"$2 abtropfen und im Topf scharf anbraten, mit Pfeffer und Salz würzen.",
-			"$7 und $6 hinzugeben.",
+			"$2 abtropfen lassen.",
+			"$7 und $6 im Topf scharf anbraten.",
+			"$2 hinzugeben, braten und mit Pfeffer und Salz würzen.",
 			"$0, $1, $8 hinzugeben und köcheln lassen.",
 			"$5 pressen und dazugeben, köcheln lassen und mit $9, $10, $11, $12, $13, $14, $15 und $16 abschmecken."
 		],
