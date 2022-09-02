@@ -251,6 +251,26 @@ var g_Recipes = [
 		],
 		"inspiration": "https://www.chefkoch.de/rezepte/1444801249404467/Blitz-Heidelbeerkuchen.html",
 	},
+	{
+		"name": "Tofu Stroganoff",
+		"persons": "2",
+		"ingredients": [
+			{ "amount": "250 g", "name": "Champignons" },
+			{ "amount": "2", "name": "Paprika" },
+			{ "amount": "250 g", "name": "Tofu" },
+			{ "amount": "2", "name": "Zwiebeln" },
+			{ "amount": "100 g", "name": "saure Sahne" },
+			{ "amount": "160 g (Abtropfg.)", "name": "Essiggurken" },
+		],
+		"steps": [
+			"$0, $1 und $2 würfeln und in der Pfanne anbraten.",
+			"$3 würfeln, dazugeben und anbraten.",
+			"$5 würfeln. $5 und $4 dazugeben.",
+			"Köcheln lassen.",
+			"Mit Salz und Pfeffer abschmecken, ggf. Konsistenz mit etwas Wasser anpassen.",
+		],
+		"inspiration": null,
+	},
 ];
 
 var g_SimpleStyle = true;
