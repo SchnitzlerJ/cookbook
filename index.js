@@ -271,6 +271,31 @@ var g_Recipes = [
 		],
 		"inspiration": null,
 	},
+	{
+		"name": "Crème Brûlée",
+		"persons": [4, 6, "Förmchen"],
+		"ingredients": [
+			{ "amount": "400 ml", "name": "Sahne" },
+			{ "amount": "140 ml", "name": "Milch" },
+			{ "amount": "80 g", "name": "Zucker" },
+			{ "amount": "5", "name": "Eigelb" },
+			{ "amount": "1", "name": "Vanilleschote" },
+			{ "amount": "", "name": "Zucker (weiß)" },
+		],
+		"steps": [
+			"$0, $1 und $3 verquirlen.",
+			"Mark aus $4 kratzen.",
+			"Mark der $4 zusammen mit dem $2 mit dem Rest vermischen.",
+			"Mindestens 30 Minuten ziehen lassen.",
+			"Ofen vorheizen und Wasser kochen.",
+			"Crème-Brûlée-Masse in Förmchen füllen.",
+			"Fettpfanne (tiefes Blech) in den Ofen stellen, mit kochendem Wasser füllen und die Förmchen reinstellen.",
+			"Für 55 Minuten bei 150 °C ohne Umluft stocken lassen.",
+			"Förmchen auskühlen lassen und danach für mindestens 2 Stunden im Kühlschrank kaltstellen.",
+			"Vor dem Servieren 1 EL $5 auf jedes Förmchen geben und flambieren.",
+		],
+		"inspiration": "https://www.chefkoch.de/rezepte/279041105901002/Creme-brulee.html",
+	},
 ];
 
 var g_SimpleStyle = true;
