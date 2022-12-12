@@ -361,7 +361,13 @@ function constructRecipe()
 	if (selectedRecipe.persons == undefined)
 		personsString += "undefined";
 	else if (typeof selectedRecipe.persons == "object")
-		personsString += selectedRecipe.persons[0] + "–" + selectedRecipe.persons[1];
+	{
+		let rangeString = selectedRecipe.persons[0] + "–" + selectedRecipe.persons[1];
+		if (selectedRecipe.persons[2] !== undefined)
+			personsString = "Für " + rangeString + " " + selectedRecipe.persons[2];
+		else
+		personsString += rangeString;
+	}
 	else if (typeof selectedRecipe.persons == "string")
 		personsString = "Für " + selectedRecipe.persons;
 	else
