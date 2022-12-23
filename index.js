@@ -336,6 +336,24 @@ var g_Recipes = [
 		],
 		"inspiration": "https://akispetretzikis.com/en/recipe/6150/spanakoryzo-kokkinisto",
 	},
+	{
+		"name": "Mousse au Chocolate",
+		"persons": [1.67,2],
+		"ingredients": [
+			{ "amount": "1", "name": "Ei" },
+			{ "amount": "200 mL", "name": "Sahne" },
+			{ "amount": "100 g", "name": "Zartbitterschokolade" },
+			{ "amount": "50 g", "name": "Vollmilchschokolade" },
+		],
+		"steps": [
+			"$2 und $3 im Wasserbad schmelzen. Die Schokolade sollte warm, aber nicht zu heiß sein.",
+			"$0 in eine Schüssel aufschlagen und leicht schaumig schlagen.",
+			"$1 in einer weiteren Schüssel steif schlagen.",
+			"Die geschmolzene Schokolade mit dünnem Strahl in die Eier einrühren. (Die Schokolade sollte nicht zu kalt sein.)",
+			"Die Ei-Schokoladen-Mischung sorgfältig in die Sahne unterheben.",
+		],
+		"inspiration": "",
+	},
 ];
 
 var g_SimpleStyle = true;
