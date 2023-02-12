@@ -217,10 +217,11 @@ var g_Recipes = [
 		],
 		"steps": [
 			"$2 und $3 würfeln.",
-			"Öl in Pfanne erhitzen.",
+			"$4 in Ringe schneiden.",
 			"$1 mit etwas $6 grob verquirlen.",
+			"Öl in Pfanne erhitzen.",
 			"Gewürfelte $2 und $3 unter stetigem Rühren scharf anbraten.",
-			"$4 schneiden und danach ebenso in die Pfanne geben.",
+			"Danach $4 ebenso in die Pfanne geben.",
 			"Wenn die Zwiebeln gar sind, $8 hinzugeben.",
 			"Sobald die Erbsen gar sind, $1 unter Rühren dazugeben.",
 			"Wenn die $1 zu stocken beginnen, $0 hinzugeben und weiter braten.",
