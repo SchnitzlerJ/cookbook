@@ -260,7 +260,7 @@ var g_Recipes = [
 			{ "amount": "2", "name": "Paprika" },
 			{ "amount": "250 g", "name": "Tofu" },
 			{ "amount": "2", "name": "Zwiebeln" },
-			{ "amount": "100 g", "name": "saure Sahne" },
+			{ "amount": "200 g", "name": "saure Sahne" },
 			{ "amount": "160 g (Abtropfg.)", "name": "Essiggurken" },
 		],
 		"steps": [
