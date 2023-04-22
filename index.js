@@ -355,6 +355,34 @@ var g_Recipes = [
 		],
 		"inspiration": "",
 	},
+	{
+		"name": "Zitronenkuchen",
+		"persons": undefined,
+		"ingredients": [
+			{ "amount": "275 g", "name": "Mehl" },
+			{ "amount": "1 Pck", "name": "Backpulver" },
+			{ "amount": "200 g", "name": "Zucker" },
+			{ "amount": "3", "name": "Eier" },
+			{ "amount": "125 ml", "name": "Öl" },
+			{ "amount": "125 ml", "name": "Milch" },
+			{ "amount": "2", "name": "Zitronen" },
+			{ "amount": "", "name": "Puderzucker" },
+		],
+		"steps": [
+			"$3 trennen.",
+			"Eigelb und $2 verrühren.",
+			"$4 und $5 dazugeben.",
+			"Die Schale der $6 abreiben und den Saft auspressen.",
+			"Schale und Hälfte des Safts der Zitrone dazugeben und alles verrühren.",
+			"Zuletzt das Eiweiß dazugeben und verrühren.",
+			"$0 mit $1 vermischen, danach nach und nach in den Teig unterrühren.",
+			"Kuchenform mit Backpapier auslegen oder Öl bestreichen und Teig einfüllen.",
+			"Kuchen bei 180 °C ohne Umluft 30–50 Minuten backen.",
+			"Rest des Zitronensafts mit $7 vermischen.",
+			"In den noch warmen Kuchen mit einem Zahnstocher Löcher stechen und den Kuchen mit der Zitronenglasur bestreichen.",
+		],
+		"inspiration": "AX",
+	},
 ];
 
 var g_SimpleStyle = true;
