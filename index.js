@@ -212,7 +212,7 @@ var g_Recipes = [
 			{ "amount": "", "name": "Chilipulver" },
 			{ "amount": "", "name": "Sojasoße" },
 			{ "amount": "", "name": "Sesamöl" },
-			{ "amount": "180 g", "name": "gefrorene Erbsen" },
+			{ "amount": "110 g", "name": "gefrorene Erbsen" },
 			{ "amount": "", "name": "Salz" },
 		],
 		"steps": [
