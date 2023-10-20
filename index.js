@@ -383,6 +383,41 @@ var g_Recipes = [
 		],
 		"inspiration": "AX",
 	},
+	{
+		"name": "Thaicurry",
+		"persons": undefined,
+		"ingredients": [
+			{ "amount": "3", "name": "Paprika" },
+			{ "amount": "1", "name": "Karotten" },
+			{ "amount": "1", "name": "Süßkartoffel" },
+			{ "amount": "", "name": "grüne Currypaste" },
+			{ "amount": "270 ml", "name": "Kokosmilch" },
+			{ "amount": "1", "name": "Zwiebel" },
+			{ "amount": "1 Bund", "name": "Frühlingszwiebeln" },
+			{ "amount": "1", "name": "Mango" },
+			{ "amount": "180 g", "name": "Tomaten" },
+			{ "amount": "1 Stängel", "name": "Zitronengras" },
+			{ "amount": "1 Zehe", "name": "Knoblauch" },
+			{ "amount": "150 g", "name": "Reis" },
+			{ "amount": "260 g", "name": "Wasser" },
+			{ "amount": "", "name": "Limettensaft" },
+		],
+		"steps": [
+			"$1, $2 und $5 schälen, würfeln und anbraten.",
+			"$0 würfeln und mitbraten.",
+			"$7 schälen, würfeln und dazugeben.",
+			"$8 würfeln und dazugeben.",
+			"$3 dazugeben.",
+			"$11 mit $12 aufkochen und leise köcheln lassen.",
+			"$4 dazugeben und die ggf. etwas Wasser dazugeben.",
+			"$9 kleinschneiden und dazugeben.",
+			"$10 pressen und dazugeben",
+			"Das Curry köcheln lassen.",
+			"Zum Schluss $6 kleinschneiden und kurz mitkochen.",
+			"Mit $13 und Salz abschmecken."
+		],
+		"inspiration": "",
+	},
 ];
 
 var g_SimpleStyle = true;
