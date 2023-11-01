@@ -408,7 +408,7 @@ var g_Recipes = [
 			"$7 schälen, würfeln und dazugeben.",
 			"$8 würfeln und dazugeben.",
 			"$3 dazugeben.",
-			"$11 mit $12 aufkochen und leise köcheln lassen.",
+			"$11 mit $12 und etwas Salz aufkochen und leise köcheln lassen.",
 			"$4 dazugeben und die ggf. etwas Wasser dazugeben.",
 			"$9 kleinschneiden und dazugeben.",
 			"$10 pressen und dazugeben",
