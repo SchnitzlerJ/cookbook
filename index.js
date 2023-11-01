@@ -385,7 +385,7 @@ var g_Recipes = [
 	},
 	{
 		"name": "Thaicurry",
-		"persons": undefined,
+		"persons": 3,
 		"ingredients": [
 			{ "amount": "3", "name": "Paprika" },
 			{ "amount": "1", "name": "Karotten" },
@@ -398,8 +398,8 @@ var g_Recipes = [
 			{ "amount": "180 g", "name": "Tomaten" },
 			{ "amount": "1 Stängel", "name": "Zitronengras" },
 			{ "amount": "1 Zehe", "name": "Knoblauch" },
-			{ "amount": "150 g", "name": "Reis" },
-			{ "amount": "260 g", "name": "Wasser" },
+			{ "amount": "420 g", "name": "Reis" },
+			{ "amount": "720 g", "name": "Wasser" },
 			{ "amount": "", "name": "Limettensaft" },
 		],
 		"steps": [
