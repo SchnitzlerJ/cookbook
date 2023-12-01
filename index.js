@@ -418,6 +418,39 @@ var g_Recipes = [
 		],
 		"inspiration": "",
 	},
+	{
+		"name": "Thailändische Wokpfanne",
+		"persons": 2,
+		"ingredients": [
+			{ "amount": "300-400 g", "name": "Tofu" },
+			{ "amount": "400 g", "name": "Kokosmilch" },
+			{ "amount": "200 g", "name": "Austernpilze" },
+			{ "amount": "200 g", "name": "grüne Bohnen" },
+			{ "amount": "2", "name": "Karotten" },
+			{ "amount": "280 g", "name": "Reis" },
+			{ "amount": "480 g", "name": "Wasser" },
+			{ "amount": "", "name": "Sambal Oelek" },
+			{ "amount": "", "name": "Sojasoße" },
+			{ "amount": "", "name": "grüne Currypaste" },
+
+
+		],
+		"steps": [
+			"$0 würfeln und mit $7 und $8 marinieren.",
+			"$3 waschen und in mundgerechte Stücke schneiden.",
+			"$2 in Stücke schneiden.",
+			"$4 schälen und in ca. 2–3 mm dicke Scheiben schneiden.",
+			"Öl in der Pfanne erhitzen.",
+			"$2 und $3 anbraten.",
+			"$4 dazugeben.",
+			"Weiter anbraten, bis das Gemüse bissfest ist.",
+			"$5 mit $6 und etwas Salz aufkochen, danach bei kleiner Hitze ziehen lassen.",
+			"Mariniertes $0 und $9 in die Pfanne geben.",
+			"Kurze Zeit später mit $1 ablöschen",
+			"Mit Salz, Pfeffer und $8 abschmecken und noch kurz weiter erhitzen.",
+		],
+		"inspiration": "https://www.chefkoch.de/rezepte/61751022414158/Thailaendische-Wokpfanne-mit-Kokosmilch.html",
+	},
 ];
 
 var g_SimpleStyle = true;
