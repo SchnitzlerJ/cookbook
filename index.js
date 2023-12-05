@@ -449,6 +449,20 @@ var g_Recipes = [
 		],
 		"inspiration": "https://www.chefkoch.de/rezepte/61751022414158/Thailaendische-Wokpfanne-mit-Kokosmilch.html",
 	},
+	{
+		"name": "Kartoffeln mit Quark",
+		"persons": 1,
+		"ingredients": [
+			{ "amount": "250 g", "name": "Quark" },
+			{ "amount": "90 g", "name": "Sahne" },
+			{ "amount": "570 g", "name": "Kartoffeln" },
+		],
+		"steps": [
+			"$2 waschen und kochen.",
+			"$0 mit $1 mischen und mit Salz, Pfeffer und Paprikapulver würzen.",
+		],
+		"inspiration": "V",
+	},
 ];
 
 var g_SimpleStyle = true;
