@@ -432,8 +432,6 @@ var g_Recipes = [
 			{ "amount": "", "name": "Sambal Oelek" },
 			{ "amount": "", "name": "Sojasoße" },
 			{ "amount": "", "name": "grüne Currypaste" },
-
-
 		],
 		"steps": [
 			"$0 würfeln und mit $7 und $8 marinieren.",
