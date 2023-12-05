@@ -589,10 +589,15 @@ function hideId(id, hide)
 	document.getElementById(id).style.visibility = hide ? "hidden" : "visible";
 }
 
+function displayId(id, show)
+{
+	document.getElementById(id).style.display = show ? "block" : "none";
+}
+
 window.onload = function()
 {
-	hideId("recipePage", g_SelectedRecipeId == null);
-	hideId("startPage", g_SelectedRecipeId != null);
+	displayId("recipePage", g_SelectedRecipeId != null);
+	displayId("startPage", g_SelectedRecipeId == null);
 	if (g_SelectedRecipeId != null)
 	{
 		constructRecipe();
