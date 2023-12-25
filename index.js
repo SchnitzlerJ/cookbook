@@ -274,7 +274,7 @@ var g_Recipes = [
 	},
 	{
 		"name": "Crème Brûlée",
-		"persons": [4, 6, "Förmchen"],
+		"persons": "4 Förmchen",
 		"ingredients": [
 			{ "amount": "400 ml", "name": "Sahne" },
 			{ "amount": "140 ml", "name": "Milch" },
