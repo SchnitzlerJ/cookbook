@@ -463,6 +463,23 @@ var g_Recipes = [
 		],
 		"inspiration": "V",
 	},
+	{
+		"name": "Joghurtbombe",
+		"persons": [3, 4],
+		"ingredients": [
+			{ "amount": "500 g", "name": "Joghurt" },
+			{ "amount": "120 g", "name": "Zucker" },
+			{ "amount": "1 Pck", "name": "Vanillezucker" },
+			{ "amount": "400 g", "name": "Sahne" },
+		],
+		"steps": [
+			"$0, $1 und $2 in einer Schüssel vermischen.",
+			"$3 steif schlagen und unterheben.",
+			"Ein Sieb mit einem Geschirrtuch auslegen und auf eine größere Schüssel stellen.",
+			"Die Masse in das Sieb gießen und über Nacht kalt stellen."
+		],
+		"inspiration": "https://www.chefkoch.de/rezepte/565591155022382/Joghurtbombe.html",
+	},
 ];
 
 var g_SimpleStyle = true;
