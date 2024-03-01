@@ -504,6 +504,9 @@ function capitalize(s)
 function constructRecipe()
 {
 	let selectedRecipe = g_SelectedRecipeId != null && g_Recipes[g_SelectedRecipeId];
+	// Go back to the overview in case this recipe does not exist.
+	if (selectedRecipe === undefined)
+		window.location.href = "index.html"
 
 	let compSt = "";
 	let simpSt = "";
