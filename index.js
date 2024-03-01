@@ -149,8 +149,8 @@ var g_Recipes = [
 			{ "amount": "3", "name": "Eier" },
 			{ "amount": "3 EL", "name": "warmes Wasser" },
 			{ "amount": "3 TL", "name": "Backpulver" },
-			{ "amount": "", "name": "Sahne" },
-			{ "amount": "", "name": "Beeren" },
+			{ "amount": "300 g", "name": "Sahne" },
+			{ "amount": "220 g", "name": "Himbeeren" },
 			{ "amount": "", "name": "Puderzucker" },
 		],
 		"steps": [
