@@ -480,6 +480,28 @@ var g_Recipes = [
 		],
 		"inspiration": "https://www.chefkoch.de/rezepte/565591155022382/Joghurtbombe.html",
 	},
+	{
+		"name": "Kartoffel-Karotten-Gulasch",
+		"persons": 3,
+		"ingredients": [
+			{ "amount": "750 g", "name": "Kartoffeln" },
+			{ "amount": "3", "name": "Karotten" },
+			{ "amount": "3", "name": "Zwiebeln" },
+			{ "amount": "1 EL", "name": "Olivenöl" },
+			{ "amount": "500 ml", "name": "Brühe" },
+			{ "amount": "3 TL", "name": "Paprikapulver" },
+			{ "amount": "2 EL", "name": "Tomatenmark" },
+			{ "amount": "3 EL", "name": "saure Sahne" },
+		],
+		"steps": [
+			"$2 würfeln und mit $3 anbraten.",
+			"$0 und $1 ca. 1 cm groß würfeln und kurz mit anbraten.",
+			"Mit $4 ablöschen.",
+			"$5 und $6 dazugeben und ca. 15 Minuten köcheln lassen.",
+			"$7 dazugeben und mit Pfeffer und Salz würzen.",
+		],
+		"inspiration": "V",
+	},
 ];
 
 var g_SimpleStyle = true;
