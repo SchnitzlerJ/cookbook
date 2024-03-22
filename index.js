@@ -482,7 +482,7 @@ var g_Recipes = [
 	},
 	{
 		"name": "Kartoffel-Karotten-Gulasch",
-		"persons": 3,
+		"persons": 2,
 		"ingredients": [
 			{ "amount": "750 g", "name": "Kartoffeln" },
 			{ "amount": "3", "name": "Karotten" },
