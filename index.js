@@ -502,6 +502,27 @@ var g_Recipes = [
 		],
 		"inspiration": "V",
 	},
+	{
+		"name": "Griechischer Salat",
+		"persons": 1.1,
+		"ingredients": [
+			{ "amount": "1-2", "name": "Tomaten" },
+			{ "amount": "1", "name": "Spitzpaprika" },
+			{ "amount": "1", "name": "kleine Gurke" },
+			{ "amount": "1", "name": "kleine rote Zwiebel" },
+			{ "amount": "180 g", "name": "Feta" },
+			{ "amount": "", "name": "Oregano" },
+			{ "amount": "", "name": "Olivenöl" },
+			{ "amount": "", "name": "Salz (grob)" },
+			{ "amount": "", "name": "Zitronensaft" },
+		],
+		"steps": [
+			"$0 und $1 grob würfeln; $2 und $3 in Scheiben schneiden.",
+			"Alles vermischen und mit $6, $7, $8 und etwas $5 würzen.",
+			"$4 darüber legen, mit $5 bestreuen und etwas $6 darüber träufeln.",
+		],
+		"inspiration": "https://mysweetgreek.com/greek-food/greek-salad-recipe-success-horiatiki-salata/",
+	},
 ];
 
 var g_SimpleStyle = true;
