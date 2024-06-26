@@ -523,6 +523,31 @@ var g_Recipes = [
 		],
 		"inspiration": "https://mysweetgreek.com/greek-food/greek-salad-recipe-success-horiatiki-salata/",
 	},
+	{
+		"name": "Nudelsalat",
+		"persons": undefined,
+		"ingredients": [
+			{ "amount": "500 g", "name": "Nudeln" },
+			{ "amount": "3 TL", "name": "Salz" },
+			{ "amount": "3 Schuss", "name": "Essig" },
+			{ "amount": "1.5", "name": "Paprika" },
+			{ "amount": "150 g", "name": "Erbsen" },
+			{ "amount": "180 g", "name": "Essiggurken" },
+			{ "amount": "250 g", "name": "Mayonnaise" },
+			{ "amount": "", "name": "Gurkenflüssigkeit" },
+		],
+		"steps": [
+			"Nudelwasser mit $1 und $2 versetzen.",
+			"$0 kochen.",
+			"$4 dämpfen.",
+			"$3 und $5 klein schneiden und in eine Schüssel geben.",
+			"Wenn die $4 gar sind, abgießen und in die Schüssel geben.",
+			"Wenn die $0 bissfest sind, abgießen, abschrecken und abkühlen lassen. Danach in die Schüssel geben.",
+			"$6 mit etwas $7 zu einem Dressing anrühren; mit Salz und Pfeffer abschmecken.",
+			"Alles vermischen und ziehen lassen.",
+		],
+		"inspiration": "Chefkoch",
+	},
 ];
 
 var g_SimpleStyle = true;
