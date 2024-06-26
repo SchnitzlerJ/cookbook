@@ -410,10 +410,10 @@ var g_Recipes = [
 			"$3 dazugeben.",
 			"$11 mit $12 und etwas Salz aufkochen und leise köcheln lassen.",
 			"$4 dazugeben und die ggf. etwas Wasser dazugeben.",
-			"$9 kleinschneiden und dazugeben.",
+			"$9 klein schneiden und dazugeben.",
 			"$10 pressen und dazugeben",
 			"Das Curry köcheln lassen.",
-			"Zum Schluss $6 kleinschneiden und kurz mitkochen.",
+			"Zum Schluss $6 klein schneiden und kurz mitkochen.",
 			"Mit $13 und Salz abschmecken."
 		],
 		"inspiration": "",
