@@ -548,6 +548,30 @@ var g_Recipes = [
 		],
 		"inspiration": "Chefkoch",
 	},
+	{
+		"name": "Gaspatxo",
+		"persons": [2,3],
+		"ingredients": [
+			{ "amount": "1", "name": "altes Brötchen" },
+			{ "amount": "5", "name": "Tomaten" },
+			{ "amount": "1 mittlere", "name": "Gurke" },
+			{ "amount": "1-2", "name": "Paprika" },
+			{ "amount": "1 Zehe", "name": "Knoblauch" },
+			{ "amount": "", "name": "Olivenöl" },
+			{ "amount": "", "name": "Salz" },
+		],
+		"steps": [
+			"$0 gut in Wasser einweichen.",
+			"$1 und $2 schälen und grob zerkleinern.",
+			"$3 grob zerkleinern.",
+			"$0 mit $1 zusammen pürieren.",
+			"$2 dazugeben und pürieren.",
+			"$3 dazugeben und pürieren.",
+			"$4 dazupressen.",
+			"Mit $5 und etwas $6 abschmecken.",
+		],
+		"inspiration": "Chefkoch",
+	},
 ];
 
 var g_SimpleStyle = true;
