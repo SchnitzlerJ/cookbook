@@ -572,6 +572,38 @@ var g_Recipes = [
 		],
 		"inspiration": "Chefkoch",
 	},
+	{
+		"name": "Birnentarte Tatin",
+		"persons":undefined,
+		"ingredients": [
+			{ "amount": "250 g", "name": "Mehl" },
+			{ "amount": "1 TL", "name": "Salz" },
+			{ "amount": "125 g", "name": "Butter" },
+			{ "amount": "1", "name": "Ei" },
+			{ "amount": "1 kg", "name": "Birnen" },
+			{ "amount": "2 EL", "name": "Zitronensaft" },
+			{ "amount": "144 g", "name": "Zucker" },
+			{ "amount": "", "name": "Butter" },
+			{ "amount": "", "name": "Crème fraîche" },
+		],
+		"steps": [
+			"$2 mit $3 in eine Schüssel geben und hackend vermischen.",
+			"$0 und $1 dazugeben; zu einer bröseligen Masse hacken.",
+			"Rasch zusammenkneten und kalt stellen.",
+			"$4 schälen, längs halbieren und entkernen.",
+			"$5 in eine große Schüssel geben und $4 darin schwenken.",
+			"$6 in eine gusseiserne Pfanne (25 cm) oder eine Tarte-Tatin-Form geben und bei geringer Hitze erwärmen.",
+			"Wenn der Zucker anfängt zu schmelzen mit einem Holzlöffel rühren, bis der gesamte Zucker geschmolzen ist und anfängt, sich goldbraun zu färben.",
+			"Pfanne von der Platte nehmen und die Birnenhälften mit der Schnittfläche nach oben strahlenförmig in die Pfanne legen.",
+			"Birnen mit Spänen der $7 bestreuen.",
+			"Birnen bei mittler Hitze für 15 – 20 Minuten kochen bis der Zucker karamellfarben ist und der Saft der Birnen größtenteils verdampft ist. Währenddessen nicht umrühren.",
+			"Teig ausrollen und über die Birnen legen. Den Rand des Teigs vorsichtig festdrücken.",
+			"Bei 190 °C für 25 – 30 Minuten backen, bis der Teig goldbraun ist.",
+			"10 Minuten abkühlen, mit einem scharfen Messer vorsichtig den Rand lösen und auf die Tarte auf einen Teller stürzen.",
+			"Einige Minuten stehen lassen und dann lauwarm mit $8 genießen.",
+		],
+		"inspiration": "https://www.makebetterfood.com/recipes/pear-tarte-tatin/",
+	},
 ];
 
 var g_SimpleStyle = true;
