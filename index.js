@@ -26,7 +26,7 @@ var g_Recipes = [
 			{ "amount": "800 g", "name": "Kartoffeln" },
 			{ "amount": "2 EL", "name": "Olivenöl" },
 			{ "amount": "2 Zehen", "name": "Knoblauch" },
-			{ "amount": "1000 ml", "name": "leichte Gemüsebrühe" },
+			{ "amount": "850 ml", "name": "leichte Gemüsebrühe" },
 			{ "amount": "150 g", "name": "Crème fraîche" },
 			{ "amount": "", "name": "Zitronensaft" },
 		],
