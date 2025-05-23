@@ -420,7 +420,7 @@ var g_Recipes = [
 	},
 	{
 		"name": "Thailändische Wokpfanne",
-		"persons": 2,
+		"persons": 3,
 		"ingredients": [
 			{ "amount": "300-400 g", "name": "Tofu" },
 			{ "amount": "400 g", "name": "Kokosmilch" },
@@ -441,9 +441,9 @@ var g_Recipes = [
 			"Öl in der Pfanne erhitzen.",
 			"$2 und $3 anbraten.",
 			"$4 dazugeben.",
-			"Weiter anbraten, bis das Gemüse bissfest ist.",
+			"Weiter anbraten, bis das Gemüse bissfest ist. Bei Bedarf einen Schluck Wasser dazugeben und dünsten.",
 			"$5 mit $6 und etwas Salz aufkochen, danach bei kleiner Hitze ziehen lassen.",
-			"Mariniertes $0 und $9 in die Pfanne geben.",
+			"Mariniertes $0 und $9 in die Pfanne geben, optional separat anbraten.",
 			"Kurze Zeit später mit $1 ablöschen",
 			"Mit Salz, Pfeffer und $8 abschmecken und noch kurz weiter erhitzen.",
 		],
