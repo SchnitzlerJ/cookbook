@@ -604,6 +604,26 @@ var g_Recipes = [
 		],
 		"inspiration": "https://www.makebetterfood.com/recipes/pear-tarte-tatin/",
 	},
+	{
+		"name": "Grießbrei",
+		"persons": 1,
+		"ingredients": [
+			{ "amount": "400 g", "name": "Milch" },
+			{ "amount": "", "name": "Zucker" },
+			{ "amount": "1 Priese", "name": "Salz" },
+			{ "amount": "40 g", "name": "Weichweizengrieß" },
+			{ "amount": "20 g", "name": "Butter" },
+			{ "amount": "1", "name": "Ei" },
+		],
+		"steps": [
+			"$0 mit $1 und $2 aufkochen.",
+			"$3 dazugeben und unterrühren, ca. 5 Minuten ziehen lassen.",
+			"$4 trennen, Eiweiß schlagen.",
+			"$5 und Eigelb unterrühren.",
+			"Eischnee unterheben.",
+		],
+		"inspiration": "V",
+	},
 ];
 
 var g_SimpleStyle = true;
